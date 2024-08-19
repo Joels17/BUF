@@ -6,15 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'bigshoulders': ['bigshoulders', 'sans-serif']
+      },
       keyframes: {
-        slidein: {
+        slideleft: {
           from: {
-            opacity: "0",
-            transform: "translateY(-10px)",
+            transform: "translateX(2.25rem)",
           },
           to: {
-            opacity: "1",
-            transform: "translateY(0)",
+            transform: "translateX(-1rem)",
           },
         },
         fadeout: {
@@ -36,9 +37,9 @@ export default {
         }
       },
       animation: {
-        slidein: "slidein 2s ease var(--slidein-delay, 0) forwards",
-        fadeout: "fadeout 2s ease-in forwards",
-        fadein: "fadein 2s ease-in forwards",
+        fadeout: "fadeout 2s ease-in var(--fadeout-delay, 0) forwards",
+        fadein: "fadein 1s ease-in var(--fadein-delay, 0) forwards",
+        slideleft: "slideleft 1s ease-in-out var(--slideleft-delay, 0) forwards",
       },
     },
   },

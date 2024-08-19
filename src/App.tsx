@@ -2,7 +2,7 @@ import Title from './Components/Title.tsx';
 
 function App() {
   return (
-    <>
+    <div className='font-bigshoulders'>
       <Title/>
       <div className="bg-neutral-content text-primary-content grid place-content-center rounded-2xl mx-auto">
         <div className="my-3 mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar felis ac blandit efficitur. Donec aliquam pharetra ante, sed commodo arcu tristique eu. Suspendisse id sagittis odio. Sed non lectus molestie, egestas lectus ornare, venenatis felis. Morbi feugiat tellus tortor, in iaculis dui rhoncus quis. Morbi arcu dolor, dapibus ac lobortis id, faucibus non nulla. Cras sed maximus orci. Nulla tortor ex, vehicula a velit vitae, ullamcorper congue augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quam elit, accumsan vitae purus sit amet, euismod pretium sem. Nullam consequat diam bibendum est scelerisque, id maximus metus iaculis.
@@ -16,7 +16,7 @@ Aliquam congue bibendum volutpat. Cras non egestas turpis. Donec eleifend sed me
 Cras ligula sapien, malesuada id viverra non, vehicula quis leo. Aenean hendrerit ipsum auctor est pulvinar, ac fermentum nulla aliquet. Sed rhoncus commodo metus quis fermentum. Etiam ullamcorper, tellus laoreet faucibus sollicitudin, quam lectus maximus odio, at condimentum urna urna at ligula. Nulla bibendum tellus ut enim laoreet semper. Nunc nec lectus vestibulum, iaculis felis id, accumsan leo. Mauris dictum quam pellentesque neque tincidunt, id scelerisque dui finibus. Nulla tempus auctor pharetra. Curabitur vitae leo vel eros convallis consequat a at tellus. Sed vitae ex tortor. Vivamus molestie volutpat enim, convallis blandit elit fringilla nec. Donec vehicula pellentesque urna eu varius. Ut vestibulum dignissim tellus ac blandit. Morbi eleifend lacinia enim quis egestas. Proin lacinia sem egestas nisi dignissim vestibulum.
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
