@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'bigshoulders': ['bigshoulders', 'sans-serif']
+        acme: ['"Acme"', 'sans-serif']
       },
       keyframes: {
         slideleft: {

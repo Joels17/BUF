@@ -2,7 +2,7 @@ import Title from './Components/Title.tsx';
 
 function App() {
   return (
-    <div className='font-bigshoulders'>
+    <div className='font-acme'>
       <Title/>
       <div className="bg-neutral-content text-primary-content grid place-content-center rounded-2xl mx-auto">
         <div className="my-3 mx-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar felis ac blandit efficitur. Donec aliquam pharetra ante, sed commodo arcu tristique eu. Suspendisse id sagittis odio. Sed non lectus molestie, egestas lectus ornare, venenatis felis. Morbi feugiat tellus tortor, in iaculis dui rhoncus quis. Morbi arcu dolor, dapibus ac lobortis id, faucibus non nulla. Cras sed maximus orci. Nulla tortor ex, vehicula a velit vitae, ullamcorper congue augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quam elit, accumsan vitae purus sit amet, euismod pretium sem. Nullam consequat diam bibendum est scelerisque, id maximus metus iaculis.
