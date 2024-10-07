@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        acme: ['"Acme"', 'sans-serif']
+        bebas: ['"Bebas Neue"', 'sans-serif']
       },
       keyframes: {
         slideleft: {
