@@ -7,15 +7,19 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        bebas: ['"Bebas Neue"', 'sans-serif']
+        nunito: ['"Nunito"', 'sans-serif']
+      },
+      width: {
+        '128': '32rem',
+        '256': '64rem',
       },
       keyframes: {
         slideleft: {
           from: {
-            transform: "translateX(2.25rem)",
+            transform: "translateX(0)",
           },
           to: {
-            transform: "translateX(-1rem)",
+            transform: "translateX(-3.25rem)",
           },
         },
         fadeout: {
