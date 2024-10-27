@@ -5,7 +5,7 @@ function Title() {
             <div>
                 BE
             </div>
-            <div className="animate-slideleft [--slideleft-delay:1000ms]  flex flex-row text-4xl justify-items-end">
+            <div className="animate-slideleft [--slideleft-delay:1000ms] flex flex-row text-4xl justify-items-end">
                 
                 <div className="animate-fadeout [--fadeout-delay:100ms]">
                     YO
