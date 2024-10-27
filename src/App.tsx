@@ -1,9 +1,9 @@
 import { LandingDiscount } from '@/components/landing/discount/LandingDiscount';
-import Title from './components/Title';
-import { LandingProductFeature } from './components/landing/LandingProductFeature';
-import { LandingProductFeaturesGrid } from './components/landing/LandingProductFeaturesGrid';
-import { LandingPrimaryImageCtaSection } from './components/landing/cta/LandingPrimaryCta';
-import jakeImage from './assets/jake.jpeg';
+import Title from '@/components/Title';
+import { LandingProductFeature } from '@/components/landing/LandingProductFeature';
+import { LandingProductFeaturesGrid } from '@/components/landing/LandingProductFeaturesGrid';
+import { LandingPrimaryImageCtaSection } from '@/components/landing/cta/LandingPrimaryCta';
+import jakeImage from '@/assets/jake.jpeg';
 
 export default function Component() {
   return (
