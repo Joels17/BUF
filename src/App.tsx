@@ -1,5 +1,5 @@
-import { LandingDiscount } from '@/components/landing/discount/LandingDiscount';
 import Title from '@/components/Title';
+import { LandingDiscount } from '@/components/landing/discount/LandingDiscount';
 import { LandingProductFeature } from '@/components/landing/LandingProductFeature';
 import { LandingProductFeaturesGrid } from '@/components/landing/LandingProductFeaturesGrid';
 import { LandingPrimaryImageCtaSection } from '@/components/landing/cta/LandingPrimaryCta';
