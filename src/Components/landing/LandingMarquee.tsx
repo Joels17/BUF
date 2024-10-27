@@ -79,7 +79,7 @@ export const LandingMarquee = ({
         }}
       >
         {/* Render 3x for seamless looping */}
-        {Array.from({ length: repeat }, (_, i) => children)
+        {Array.from({ length: repeat }, (_) => children)
           .flat()
           .map((child, index) => (
             <div
