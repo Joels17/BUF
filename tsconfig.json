@@ -14,7 +14,7 @@
       "skipLibCheck": true,
 
       /* Bundler mode */
-      "moduleResolution": "NodeNext",
+      "moduleResolution": "Node",
       "allowImportingTsExtensions": true,
       "allowSyntheticDefaultImports": true,
       "resolveJsonModule": true,
