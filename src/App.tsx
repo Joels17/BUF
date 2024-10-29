@@ -1,4 +1,4 @@
-import Title from './components/Title';
+import Title from './components/Title.tsx';
 import { LandingDiscount } from './components/landing/discount/LandingDiscount';
 import { LandingProductFeature } from './components/landing/LandingProductFeature';
 import { LandingProductFeaturesGrid } from './components/landing/LandingProductFeaturesGrid';
